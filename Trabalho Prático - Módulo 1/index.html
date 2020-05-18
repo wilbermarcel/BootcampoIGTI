@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Trabalho Prático do Módulo 1</title>
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <br />
+        <h1>Escala RGB</h1>
+        <hr />
+        <form>
+            <br />
+            <div id="divRGB">
+                <div>
+                    <label>(R) Vermelho</label>
+                    <input
+                        type="range"
+                        class="myRange"
+                        min="0"
+                        max="255"
+                        value="0"
+                        id="myRangeRed"
+                    />
+                    <input
+                        type="text"
+                        size="3"
+                        id="myInputRed"
+                        value="0"
+                        disabled
+                    />
+                </div>
+                <div>
+                    <label>(G) Verde&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input
+                        type="range"
+                        class="myRange"
+                        min="0"
+                        max="255"
+                        value="0"
+                        id="myRangeGreen"
+                    />
+                    <input
+                        type="text"
+                        id="myInputGreen"
+                        value="0"
+                        size="3"
+                        disabled
+                    />
+                </div>
+                <div>
+                    <label
+                        >(B)
+                        Azul&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+                    >
+                    <input
+                        type="range"
+                        class="myRange"
+                        min="0"
+                        max="255"
+                        value="0"
+                        id="myRangeBlue"
+                    />
+                    <input
+                        type="text"
+                        id="myInputBlue"
+                        size="3"
+                        value="0"
+                        disabled
+                    />
+                </div>
+            </div>
+            <br />
+            <div class="squareRGB" id="mySquareRGB"></div>
+        </form>
+        <script src="./js/script.js"></script>
+    </body>
+</html>

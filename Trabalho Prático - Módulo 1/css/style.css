@@ -1,0 +1,73 @@
+.squareRGB {
+    border: 1px solid;
+    border-color: black;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+form {
+    height: 80vh;
+    position: relative;
+}
+
+#divRGB,
+.squareRGB {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    background-color: rgba(221, 221, 221, 0.582);
+}
+
+.myRange {
+}
+/* 
+
+
+#labelR {
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+
+#labelG {
+    font-weight: bold;
+    text-align: center;
+    color: green;
+}
+
+#labelB {
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+}
+
+
+
+.inputText {
+    background: #d3d3d3a4;
+}
+
+.slider {
+    -webkit-appearance: none;
+    background: #d3d3d3;
+}
+
+.slider::-webkit-slider-thumb {
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    cursor: pointer;
+} */
